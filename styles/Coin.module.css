@@ -1,0 +1,23 @@
+.container {
+  text-align: center;
+}
+
+.coinContainer {
+  opacity: 0.5;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-around;
+  grid-gap: 2rem;
+}
+
+.coinContainer:hover {
+  opacity: 1;
+}
+
+.coinItem {
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  padding: 0.5rem 1rem;
+  background-color: rgb(225, 225, 225);
+}
